@@ -1,3 +1,7 @@
+body {
+  --font-family: 'Arial', sans-serif;
+}
+
 .testimonial-card {
   width: 450px;
   background-color: #ffffff;
@@ -10,4 +14,13 @@
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.testimonial-author {
+  font-weight: bold;
+}
+
+blockquote p {
+  font-style: italic;
 }
